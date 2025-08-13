@@ -1,5 +1,5 @@
 # 1. 选择一个Node.js基础镜像
-FROM node:[版本]-alpine AS build-stage 
+FROM node:20-alpine AS build-stage 
 # 2. 设置工作目录
 WORKDIR /app
 # 3. 复制依赖定义文件
